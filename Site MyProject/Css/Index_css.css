@@ -1,0 +1,1049 @@
+.Main_Background{
+    position: fixed;
+    background-color: 	hsl(0, 0%, 1%);
+   /* background-image: url("../Imagens/IndexSite1/back-img2.jpg");*/
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+   background-size: 100% 100%;
+}
+main{
+ width: 100%;
+ height: 100%;
+}
+
+.inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 10px;
+        position: relative;
+        top: 2px;
+}
+.INICIO,.NOVIDADES, .SOBRE_NOS{
+        font-size: 15px;
+        text-decoration: none;
+        color:aliceblue;
+    
+}
+    
+#my_head_img{
+        width: 40px;
+        height: 40px;
+        
+}
+body {
+        overflow-x: hidden;
+        background-attachment: fixed;
+}
+    
+.main_nav{
+        overflow-x:scroll;
+        top: 0;
+        left: 0;
+        position:relative;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        height: 30px;
+        background-image: radial-gradient(circle, rgb(153, 115, 115), rgba(117, 114, 114, 0), rgb(156, 116, 116));
+        border-bottom: 2px solid cornsilk
+        
+}
+.top_Legend_logo{
+        bottom: 5px;
+        position: relative;
+}
+
+
+
+body {
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*WHEN THE SITE HAS SOME CONTENT PUT THIS FEAT WILL FIT BETTER
+.main_nav nav{
+    display: flex;
+    width: 100%;
+}
+
+.search_bar{
+    
+    overflow: hidden;
+    width: 100%;
+    
+    
+}
+
+.search_bar input[type=text]{
+    color: white;
+    padding: 6px;
+    border: none;
+    background: black;
+    font-size: 17px;
+    opacity: 50%;
+    width: 100%;
+    border-radius: 20px;
+  
+}
+.search_bar input[type=submit]{
+position: absolute;
+right: 0px;
+height: 30px;
+width: 28px;
+background-image: url('https://imgs.search.brave.com/zIAOFDlIHBGMW-w-EgWlTo3-81UvXqg8tj1FeXNUo6Q/rs:fit:256:256:1/g:ce/aHR0cDovL3d3dy50/cmFuc3BhcmVudHBu/Zy5jb20vdGh1bWIv/c2VhcmNoLWJ1dHRv/bi9mMnFNdGktc2Vh/cmNoLWJ1dHRvbi1z/cXVhcmUtYmx1ZS1m/cmVlLXBuZy5wbmc');
+background-repeat: no-repeat;    
+border-radius: 5px;
+border: none;
+background-size: 100%;
+cursor: pointer;
+font-size: '0';
+}
+
+.searchDi form{
+    width: 100%;
+    position: relative;
+     
+}*/
+@media (min-width: 500px){
+.content_heavy{
+    padding-top: 50px;
+}
+.main_nav{
+        overflow:hidden;
+        top: 0;
+        left: 0;
+        position:relative;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        height: 50px;
+        
+        border-bottom: 0px;
+        opacity: 90%;
+       
+       
+}
+.main_nav:hover{
+    
+    opacity: 1.0;
+
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+
+    
+   
+  }
+.top_Legend_logo{
+        bottom: 18px;
+        position: relative;
+}
+#my_head_img{
+    width: 80px;
+    height: 80px;
+    
+}
+ul{
+    list-style-type: none;
+}  
+.inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS{
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 30px;
+        margin-right: 30px;
+        position: relative;
+        top: 20px;
+}
+.inline_elements_NOVIDADES a{
+    width: 120px;
+    height: 20px;
+    display:block;
+   
+}
+.inline_elements_INICIO a{
+    width: 100px;
+    height: 20px;
+    display:block;
+}
+
+.inline_elements_SOBRE_NOS a{
+    width: 120px;
+    height: 20px;
+    display:block;
+
+}
+.inline_elements_NOVIDADES a:hover, .inline_elements_INICIO a:hover, 
+.inline_elements_SOBRE_NOS a:hover{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(224, 82, 82));
+    border-radius: 20px;
+    transition:0.1s ease-in-out;
+}
+.INICIO,.NOVIDADES, .SOBRE_NOS{
+        font-size: 15px;
+        text-decoration: none;
+        color:aliceblue;
+    
+}
+}
+.content_heavy{
+ 
+    margin-left: 20px;
+    margin-right: 20px;
+    
+ 
+}
+.windows_display_boards_container_appear{
+    display: none;
+    padding-top: 10px;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    
+}
+.Boards_contets_drop a, .RAMS_contets_drop a{
+    margin: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px;
+    border: 2px;
+    border-left: 5px;
+    border-right: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    color:aliceblue;
+   
+    
+}
+.Boards_contets_drop, .RAMS_contets_drop{
+   
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+    padding: 2px;
+
+}
+
+
+.windows_display_RAM_container_appear{
+    display: none;
+    padding-top: 10px;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.containe_TO_button_ram_mob_infoTech{
+    padding: 5px;
+    margin: 5px;
+    width: 95%;
+    border-radius: 20px;
+    background-image: radial-gradient(circle, rgb(99, 72, 72), rgba(117, 114, 114, 0),  rgb(99, 72, 72));
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.title_all_infoDesktop {
+    padding-bottom: 2px;
+}
+.container_MOB_contents_display_btn {
+    padding-top: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.container_RAM_contents_display_btn, .container_important_contents_display_btn,
+.container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
+.container_case_contents_display_btn {
+    padding-top: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.title_info_table_btn, .RAM_table_btn, .MOB_table_btn, .PSU_table_btn, .HDSSD_table_btn,
+.CASE_table_btn {
+    border-radius: 2px;
+    width: 100%;
+    background-color: hsl(217, 45%, 65%);
+}
+.button{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    padding: 16px 32px;
+    width: 300px;
+    color: white;
+    border-radius:30px;
+   
+}
+.title_info_table_btn:hover, .RAM_table_btn:hover, .MOB_table_btn:hover, .PSU_table_btn:hover,
+.HDSSD_table_btn:hover, .CASE_table_btn:hover {
+    background-color: rgb(76, 122, 168);
+}
+.container_window_appear{
+    display: none;
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); 
+  }
+.content_window{  
+    background-image: radial-gradient(circle, rgb(15, 14, 14), rgba(63, 62, 62, 0),  rgb(19, 15, 15));
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    width: 80%;
+    
+}
+.close_Info_tec{
+    color: #fffefe;
+    float: right;
+    font-size: 50px;
+    font-weight:bold;
+  }
+
+.close_Info_tec:hover,
+.close_Info_tec:focus {
+  color: #ff0000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.important_names_computer:hover, .Problemas_Comput:hover, .WWW_Intenet:hover,
+.mais_ram:hover, .formatar_info:hover, .Eletronicos:hover, .Filtros_or_nobreaks:hover,
+.early_Computer:hover, .what_is_MOB:hover, .what_is_ram:hover, .Arquitetura_Mob_ATX_Mx:hover,
+.Arquitetura_ram_DDs:hover, .channels_ram:hover, .Peças_Soldas_inMB:hover, .what_is_PSU:hover,
+.PCB_of_PSU:hover, .Peças_Soldadas_inPSU:hover, .why_melhor_fonte_escolhida:hover,
+.Arquitetura:hover, .relation_cpu_mem:hover, .channels_ram:hover, .Think:hover,
+.Storage_about:hover, .Storage_differences:hover, .Storage_types_tech:hover,
+.Storage_which_is_better:hover, .what_is_case:hover {
+    box-shadow: 5px 10px 18px rgb(179, 179, 179);
+    transition-duration: 0.4s;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.Think, .Arquitetura {
+    position: relative;
+    max-width: 160px;
+    max-height: 180px;
+    text-align: justify;
+    cursor: pointer;
+    margin: 10px;
+}
+.WWW_Intenet, .Arquitetura_ram_DDs {
+    position: relative;
+    max-width: 160px;
+    max-height: 180px;
+    text-align: justify;
+    cursor: pointer;
+    margin: 10px;
+}
+ .WWW_Intenet, .Arquitetura_Mob_ATX_Mx{
+position:relative;
+max-width: 160px;
+max-height: 180px;
+text-align: justify;
+cursor: pointer;
+margin: 10px;
+}
+.what_is_MOB{
+position:relative;
+max-width: 160px;
+max-height: 180px;
+text-align: justify;
+cursor: pointer;
+margin: 10px;
+}
+.Eletronicos, .early_Computer{
+position:relative;
+max-width: 160px;
+max-height: 180px;
+text-align: justify;
+cursor: pointer;
+margin: 10px;
+}
+.Problemas_Comput,.what_is_ram, .channels_ram{
+position:relative;
+max-width: 160px;
+max-height: 180px;
+text-align: justify;
+cursor: pointer;
+margin: 10px;
+}
+.Peças_Soldas_inMB{
+position:relative;
+max-width: 160px;
+max-height: 180px;
+text-align: justify;
+cursor: pointer;
+margin: 10px;
+}
+.mais_ram{
+position:relative;
+max-width: 160px;
+max-height: 180px;
+text-align: justify;
+cursor: pointer;
+margin: 10px;
+
+}
+
+
+.what_is_PSU, .PCB_of_PSU, .Peças_Soldadas_inPSU,
+.why_melhor_fonte_escolhida, .relation_cpu_mem {
+    position: relative;
+    max-width: 160px;
+    max-height: 180px;
+    text-align: justify;
+    cursor: pointer;
+    margin: 10px;
+}
+.Filtros_or_nobreaks{
+    position: relative;
+    width: 162px;
+    text-align: justify;
+    cursor: pointer;
+    height:180px;
+    margin: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.important_names_computer, .formatar_info, .Storage_about, .Storage_differences,
+.Storage_types_tech, .Storage_which_is_better, .what_is_case {
+    position: relative;
+    width: 162px;
+    text-align: justify;
+    cursor: pointer;
+    height: 180px;
+    margin: 10px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.Inner_div_img_content_for_all {
+    background-image: radial-gradient(circle, rgb(245, 245, 245), rgb(128, 128, 124), rgb(203, 206, 203));
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    max-width: 160px;
+}
+.Inner_div_img_content_for_Arquitetura {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    max-width: 160px;
+}
+.Inner_div_img_content_for_Info_melhor_escolha {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    max-width: 160px;
+   
+}
+.Inner_div_img_content_for_cpu_mem_relation {
+    background-image: radial-gradient(circle, rgb(245, 245, 245), rgb(128, 128, 124), rgb(203, 206, 203));
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    max-width: 160px;
+}
+.Inner_div_img_content_for_FilterPower {
+    background-image: radial-gradient(circle, rgb(245, 245, 245), rgb(128, 128, 124), rgb(203, 206, 203));
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-width: 162px;
+   
+}
+.Inner_div_img_content_for_FormatarInfo {
+    background-image: radial-gradient(circle, rgb(252, 1, 1), rgb(202, 55, 55), rgb(134, 73, 62));
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    max-width: 162px;
+}
+.Inner_div_img_content_SoldasImg {
+    max-width: 160px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.Inner_div_img_content_for_channels_ram {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-width: 160px;
+}
+.Inner_div_img_content_for_mais_ram {
+    background-image: radial-gradient(circle, rgb(21, 255, 0), rgb(10, 255, 63), rgb(57, 189, 57));
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    max-width: 160px;
+}
+.Inner_div_img_content_for_Info_names {
+    background-image: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0), rgb(2, 2, 2));
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    max-width: 160px;
+}
+.Inner_div_img_content_for_Info_eletronicos {
+    background-image: radial-gradient(circle, rgb(0, 4, 255), rgb(0, 23, 228), rgb(51, 33, 214));
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-width: 160px;
+}
+.Inner_div_img_content_for_WWW_Intenet {
+    background-image: radial-gradient(circle, rgb(104, 100, 100), rgb(110, 110, 108), rgb(203, 206, 203));
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-width: 160px;
+}
+.Inner_div_img_content_for_Peças_Soldas_inMB {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-width: 160px;
+}
+.Inner_div_img_content_for_MOB_WHATitIS {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-width: 160px;
+}
+.Inner_div_img_content_for_what_is_PSU, .Inner_div_img_content_for_Storage_about,
+.Inner_div_img_content_for_Storage_diff, .Inner_div_img_content_for_Storage_types_tech,
+.Inner_div_img_content_for_Storage_which_is_better, .Inner_div_img_content_for_case {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-width: 160px;
+}
+
+.Inner_div_img_content_early_Computer {
+    background-image: radial-gradient(circle, rgb(44, 95, 49), rgb(36, 92, 41), rgb(32, 110, 32));
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    max-width: 160px;
+}
+.Inner_div_img_content_for_WWW_Intenet {
+    background-image: radial-gradient(circle, rgb(48, 47, 47), rgb(48, 47, 47), rgb(48, 47, 47));
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    max-width: 160px;
+}
+
+
+#img_Filtro {
+    width: 160px;
+    height: 100px;
+    padding-top: 1px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: -4px;
+}
+#img_memoriaRam, #img_Arquiteturas_ram {
+    width: 160px;
+    height: 100px;
+    padding-top: 1px;
+    margin-bottom: -4px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#img_Canais {
+    width: 160px;
+    height: 100px;
+    padding-top: 1px;
+    margin-bottom: -4px;
+}
+#In_PSU_Info, #img_Choose_better_psu, #ISample_storages, #ImgSample_Question,
+#ImgSample_storages_types, #ImgSample__storage_which_is_better, #ISample_case {
+    width: 160px;
+    height: 100px;
+    padding-top: 1px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-bottom:-4px;
+}
+#img_ENIAC, #img_Problems, #img_MEM,
+#img_SD, #img_Think,
+#img_PSU, #memoriaRam_canais, #img_relatio_mem_cpu {
+    width: 160px;
+    height: 100px;
+    padding-top: 1px;
+    margin-bottom: -4px;
+    object-fit: scale-down;
+}
+#img_Soldas-Psu {
+    width: 160px;
+    height: 100px;
+    padding-top: 1px;
+    margin-bottom: -4px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#img_formatando {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 162px;
+    height: 100px;
+    padding-top: 1px;
+    object-fit: scale-down;
+    margin-bottom: -4px;
+}
+#img_MOTHERB {
+    width: 160px;
+    height: 100px;
+    padding-top: 1px;
+    margin-bottom: -4px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#img_Soldas {
+    width: 160px;
+    max-height: 100px;
+    padding-top: 1px;
+    margin-bottom: -4px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#img_alan {
+    width: 160px;
+    height: 100px;
+    padding-top: 1px;
+    margin-bottom: -4px;
+    object-fit: scale-down;
+    background-color: #9DBFAF;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+#img_WWW, #img_Problems {
+    width: 120px;
+    height: 100px;
+    padding-top: 1px;
+    margin-bottom: -4px;
+    left: 20px;
+    position: relative;
+}
+.inn{
+    cursor: pointer;
+}
+#title_info_table{
+    font-size: 40px;
+    text-align: center;
+    color:aliceblue;
+    text-decoration: underline
+}
+#Info_names_important{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    color: #fffefe;
+    display:block;
+    word-spacing:normal;
+    background-color: #050505;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#memoriaRam_canais {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    color: #fffefe;
+    display: block;
+    word-spacing: normal;
+    background-color: #050505;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    max-height:75px;
+}
+
+#Info_sobreRam, #Problemas_Comuns, #Diff_WWWInter,
+#Firs_Computer, #Info_Boards, #Info_RAMS, #Info_eletronicos, #Info_MOB_important, #Info_MOB_ARCH,
+#In_MB_Info, #Info_Think, #Info_RAM_important, #Info_RAM_ARCH, #Info_PSU_important,
+#Info_PSU_ARCH, #Info_melhor_escolha, #Info_relatio_cpu_ram_concepts, #Info_storage_imp,
+#QuestionParagrph_storage_imp, #Types_storage_imp, #Info_storage_imp, #Info_case {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    color: #fffefe;
+    display: block;
+    word-spacing: normal;
+    background-color: #050505;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#Info_filtros, #Info_formatação{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    color: #fffefe;
+    display:block;
+    word-spacing:normal;
+   background-color: #050505;
+}
+.container_content{
+    width: 100%;
+    
+}
+#Resume{
+    font-size: 40px;
+    color:rgb(255, 253, 253);
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+p{
+    color:rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 30px;
+    font-size: 1.2em;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}   
+.container_content_themes_title{
+    display:grid;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(99, 72, 72));
+    border-radius: 30px;
+    width: 97%;
+    height: 200px;
+}
+.Subcontainer_Subcontent_themes_title {
+    display: grid;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(99, 72, 72));
+    border-radius: 30px;
+    width: 97%;
+    height: 200px;
+}
+#theme_computer, #theme_software, #theme_prog, #theme_CodeForall, #theme_Construct_setups, #theme_Tips {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(160, 120, 120));
+    border-radius: 30px;
+    cursor: pointer;
+}
+    #theme_computer:hover, #theme_software:hover, #theme_prog:hover, #theme_CodeForall:hover,
+    #theme_Construct_setups:hover, #theme_Tips:hover {
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(224, 82, 82));
+        transition: 0.5s ease-in-out;
+    }
+#inline_them_image_prog{
+    width: 130px;
+    height: 130px;
+    padding: 10px;
+    left: 55px;
+    margin: 10px;
+    position: relative;
+}
+#inline_them_image_computer, #inline_them_image_software{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    left: 55px;
+    margin: 10px;
+    position: relative;
+    
+}
+
+#Themes{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(0, 0, 0);
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid cornsilk;
+    display: inline;
+    padding: 5px;
+    margin: 2px 2px 2px;
+    
+}
+.container_content_Resume{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    
+    
+}
+.Contact_info{
+  
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+.text_area_submit{
+    height:100px;
+    width: 100%;
+    padding: 2px;
+    margin: 2px;
+}
+#submit_text_are{
+    padding: 2px;
+    margin: 2px;
+    cursor: pointer;
+}
+#lbl_text_are{
+    padding: 10px;
+    margin: 10px;
+}
+.Container_inline_resume{
+    display: inline-block;
+    width: 80%;
+  
+}
+.Container_inline_resume p{
+
+    text-align:justify;
+}
+.container_content_Resume p{
+    color: rgb(255, 255, 255);
+}
+.introduction_content_And_container_content_themes p{
+    text-align: justify;
+    color: rgb(250, 250, 250);
+}
+.Theme_all{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 2px 2px 2px;
+  
+}
+.Subcontainer_Theme_all {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 2px 2px 2px;
+}
+#Themes_title {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: 1px 1px 1px;
+}
+
+#theme_computer a, #theme_prog a, #theme_software a, #theme_CodeForall a, #theme_Construct_setups a, #theme_Tips  a{
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 240px;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+}
+.container_content{
+    padding: 10px;
+    margin: 5px 5px 5px;
+}
+
+.introduction_content_And_container_content_themes{
+    padding: 10px;
+    margin: 1px 1px 1px;
+    width: 100%;
+    /*display: flex;*/  
+    border-radius: 30px;
+}
+
+.intro_themes_outer{
+    
+    background-image: radial-gradient(circle, rgb(219, 150, 150), rgba(117, 114, 114, 0), rgb(156, 116, 116));
+   
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    display:flex;
+    border-style: solid;
+    border-radius: 10px;
+   
+  
+}
+.intro_themes{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    margin: 1px 1px 1px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition-duration: 0.4s; 
+    
+}
+.intro_themes:hover{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(224, 82, 82));
+    border-radius:30px;
+    
+}
+.outer_summ_thems{
+    display: none;
+}
+.introduction_content_And_container_content_themes h2:hover{
+    background-color:rgb(76, 122, 168);
+    border-radius:30px;
+}
+.introduction_content_And_container_content_themes h2{
+    width: 350px;
+    font-size: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.Text_out_box_summ{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 32px;
+    width: 100%;
+    
+}
+.Text_div_summ_inline_box_hardwa, .Text_div_summ_inline_box_softwa, .Text_div_summ_inline_box_prog{
+    display: none;
+   
+}
+.search {
+    width: 80%;
+    position: relative;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .searchTerm {
+    width: 100%;
+   
+    border-right: none;
+    padding: 5px;
+    height: 36px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    
+    background:	hsl(198, 80%, 46%);
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+/*.Extra_themes{
+   display: flex;
+    justify-content: center;
+    height: 500px;
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-image: url('../Imagens/background_extra.png');
+    background-position:bottom;
+}
+.Extra_theme_about{
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+.btn_extraTheme:hover{
+    background-color:rgb(73, 98, 122);
+    border-radius:30px;
+}
+.btn_extraTheme{
+    background-image: radial-gradient(circle, rgb(153, 115, 115), rgba(117, 114, 114, 0), rgb(156, 116, 116));
+        
+    width: 700px;
+}
+*/
+.style_h2_summ_inbox{
+    padding: 5px;
+    color:rgb(255, 255, 255);
+    justify-content: center;
+    text-decoration-style: double;
+    background-color: black;
+    border-radius: 30px;
+    display:grid;
+    
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-image: radial-gradient(circle, rgb(230, 192, 192), rgba(117, 114, 114, 0), rgb(226, 186, 186));
+        
+
+    height: 90px;
+    width: 90%;
+    padding-left: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    opacity: 70%;
+  }
+
+#warning{
+    text-align: center;
+    padding: 3px;
+    background-image: radial-gradient(circle, rgb(230, 192, 192), rgba(117, 114, 114, 0), rgb(226, 186, 186));
+    color: #ffffff;    
+
+    height: 90px;
+    width: 90%;
+    padding-left: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    opacity: 70%;
+}
