@@ -36,8 +36,8 @@
 ####  Linguagens usadas e Softwares
 
 -Javascript<br>
--Html
--Gitbash
+-Html<br>
+-Gitbash<br>
 -VsCode
 
 
