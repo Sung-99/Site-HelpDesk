@@ -33,20 +33,22 @@
 
 
 
-####  Linguagens usadas e Softwares
+####  Dependências
+-Gitbash<br>
+-VsCode<br>
+-Windows 10
+
+
+####  Linguagens usadas 
 
 -Javascript<br>
 -Html<br>
--Gitbash<br>
--VsCode
+
 
 
 ####  Bibliotecas 
 -Jquery
 
-
-####  Sistema operacional
--Windows 10
 
 #### Plataformas
 
