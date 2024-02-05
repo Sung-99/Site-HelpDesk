@@ -22,7 +22,7 @@
 ![Projeto][Projeto-shield]
 ![Dedicação][Dedicação-shield]
 ![Fóco][Fóco-shield]
-![LinkedIn][linkedin-shield]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
