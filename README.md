@@ -19,6 +19,8 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
+![HTML][HTML-shield]
+![JS][js-shield]
 ![Projeto][Projeto-shield]
 ![Dedicação][Dedicação-shield]
 ![Fóco][Fóco-shield]
@@ -26,41 +28,47 @@
 
 
 
-#   Site de ajuda
+#  Site HelpDesk
 
 
-*Criação de um site com um intuito de ajudar pessoas quanto a assuntos de computação*
+*Criação de paginas web para auxiliar dúvidas e problemas de hardware e software*
 
+## Desafios
 
+*Nessa construção o fóco é construir um site com intuito de ajudar pessoas a entenderem um pouco mais sobre computação*
 
-####  Dependências
--Gitbash<br>
--VsCode<br>
--Windows 10
+####  Linguagens usadas e Softwares
 
+-Javascript
 
-####  Linguagens usadas 
+-Html
 
--Javascript<br>
--Html<br>
+-Gitbash
 
-
+-VsCode
 
 ####  Bibliotecas 
 -Jquery
 
+####  Sistema operacional
+-Windows 10
 
 #### Plataformas
 
+-GitHubPages
+
 -Github
 
+-Shields Io
 
+####  Para acessar o site: 
+-https://sung-99.github.io/Index.html
 <!--
 ***Just to create badges
 ***https://shields.io/badges
 -->
 
--Shields Io
+
 
 
 
@@ -78,14 +86,12 @@ Vitor Hugo Mota Soares
 
 
 
-
-
-
-
-
+[HTML-shield]:https://img.shields.io/badge/HTML--orange?style=for-the-badge&logo=gitlab&logoColor=orange&labelColor=blue&color=orange
+[js-shield]:https://img.shields.io/badge/Javascript--Blue?style=for-the-badge&logo=Javascript&logoColor=white&label=Javascript&labelColor=dark%20purple
 [Fóco-shield]: https://img.shields.io/badge/F%C3%B3co--silver?style=for-the-badge&logoColor=white&labelColor=orange
 [Dedicação-shield]:https://img.shields.io/badge/Dedica%C3%A7%C3%A3o--red?style=for-the-badge&logoColor=white&labelColor=Navy%20blue
 [Projeto-shield]: https://img.shields.io/badge/Projeto--red?style=for-the-badge&logoColor=white&labelColor=silver
 [Motivador-shield]: https://img.shields.io/badge/Esfor%C3%A7o--red?style=for-the-badge&logoColor=white&labelColor=teal   
 [linkedin-shield]: https://img.shields.io/badge/-brightgreen?style=for-the-badge&logo=linkedin&logoColor=white&label=LinkedIn&labelColor=blue&color=blue
 [linkedin-url]: https://www.linkedin.com/in/vitor-hugo99/
+
