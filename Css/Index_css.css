@@ -221,7 +221,8 @@ font-size: '0';
     background-image: radial-gradient(circle, rgb(99, 72, 72), rgba(117, 114, 114, 0),  rgb(99, 72, 72));
     display: flex;
     flex-wrap: wrap;
-
+    
+    
 }
 .title_all_infoDesktop {
     padding-bottom: 2px;
@@ -230,6 +231,8 @@ font-size: '0';
     padding-top: 5px;
     margin-top: 5px;
     overflow: hidden;
+    position: relative;
+    left: 130px;
 }
 .container_RAM_contents_display_btn, .container_important_contents_display_btn,
 .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
@@ -237,6 +240,8 @@ font-size: '0';
     padding-top: 5px;
     margin-top: 5px;
     overflow: hidden;
+    position: relative;
+    left: 130px;
 }
 .title_info_table_btn, .RAM_table_btn, .MOB_table_btn, .PSU_table_btn, .HDSSD_table_btn,
 .CASE_table_btn {
@@ -1015,84 +1020,165 @@ footer {
     opacity: 70%;
 }
 
+@media (min-width:801px) and (max-width: 840px){
 
-@media (max-width: 500px){
-    .content_heavy{
-        padding-top: 50px;
-        margin: 0px !important;
-        width: 100%;
-        
-    }
     .containe_TO_button_ram_mob_infoTech{
-        padding: 5px;
-        margin: 5px;
-        width: 95%;
-        border-radius: 20px;
-        background-image: none !important;
-        display: flex;
-        flex-wrap: wrap;
-    
+        width: 100%;
     }
-    .main_nav{
-            overflow:hidden;
-            top: 0;
-            left: 0;
-            position:relative;
-            width: 100%;
-            display: flex;
-            text-align: center;
-            height: 50px;
-            border-bottom: 0px;
-            opacity: 90%;
-           
-           
-    }
-    .main_nav:hover{
-        
-        opacity: 1.0;
-    
-    }
-    
-    .search {
-        
-        display: none !important; 
-    
-       
-    }
-    
-    
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;  
-       
-      }
-    .top_Legend_logo{
-        width: 60px;
-        height: 60px;
-            bottom: 18px;
-            position: relative;
-    }
-    #my_head_img{
-        width: 60px;
-        height: 60px;
-        top: 10px;
-        left: 1px;
-        position: relative;    
-    }
-    ul{
-        list-style-type: none;
-    }  
-    .inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS{
+    .container_RAM_contents_display_btn,
+     .container_important_contents_display_btn,
+      .container_PSU_contents_display_btn,
+       .container_hddssd_contents_display_btn,
+        .container_case_contents_display_btn,
+        .container_MOB_contents_display_btn {
+            left: 50px;
+        }
+        .inline_elements_NOVIDADES, .inline_elements_INICIO,
+         .inline_elements_SOBRE_NOS {
             padding-left: 5px;
             padding-right: 5px;
             margin-left: 5px;
             margin-right: 5px;
             position: relative;
             top: 20px;
+        }
+}
+
+
+
+
+
+@media (min-width:701px) and (max-width: 738px){
+    .container_RAM_contents_display_btn, .container_important_contents_display_btn,
+    .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
+    .container_case_contents_display_btn, .container_MOB_contents_display_btn {
+        padding-top: 5px;
+        margin-top: 5px;
+        overflow: hidden;
+        left: 140px;
+        position: relative;
     }
-    .inline_elements_NOVIDADES a{
+    .inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS {
+        padding-left:2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    }
+    .containe_TO_button_ram_mob_infoTech, .container_content_themes_title {
+        width: 100%;
+    }
+    #theme_computer, #theme_software, #theme_prog, #theme_CodeForall, 
+    #theme_Construct_setups, #theme_Tips{
+        width: 180px;
+        height: 180px;
+    }
+    #theme_computer a, #theme_prog a, #theme_software a,
+     #theme_CodeForall a, #theme_Construct_setups a, #theme_Tips a{
+        font-size: 17px;
+        width: 220px;
+     }
+    
+    #inline_them_image_computer, #inline_them_image_software {
+        left: 45px;
+    }
+     
+        
+}
+
+@media (min-width:601px) and (max-width: 701px){
+    .containe_TO_button_ram_mob_infoTech{
+        padding-top: 50px;
+        margin: 2px;
+        width: 100%;
+        border-radius: 20px;
+        background-image: radial-gradient(circle, rgb(99, 72, 72), rgba(117, 114, 114, 0),  rgb(99, 72, 72));
+        display: flex;
+        flex-wrap: wrap;
+            
+        
+    }
+    .container_content_themes_title{
+        width: 100%;
+    }
+    .container_RAM_contents_display_btn, .container_important_contents_display_btn,
+    .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
+    .container_case_contents_display_btn,  .container_MOB_contents_display_btn{
+        padding-top: 5px;
+        margin-top: 5px;
+        overflow: hidden;
+        left: 108px;
+        position: relative;
+    }
+
+    #theme_computer, #theme_software, #theme_prog, #theme_CodeForall, #theme_Construct_setups, #theme_Tips {
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(160, 120, 120));
+        border-radius: 30px;
+        cursor: pointer;
+        width: 140px;
+    }
+    #theme_computer a, #theme_prog a, #theme_software a,
+    #theme_CodeForall a, #theme_Construct_setups a, #theme_Tips a{
+        width: 130px;
+        font-size: 15px;
+     }
+    #inline_them_image_computer, #inline_them_image_software{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        left: 20px;
+        margin: 10px;
+        position: relative;
+        
+    }
+    #inline_them_image_prog{
         width: 120px;
+        height: 120px;
+        padding: 10px;
+        left: 20px;
+        margin: 10px;
+        position: relative;
+    }
+    #warning{
+        padding: 3px;
+        margin-left: 1px;
+        font-size: 10px;
+        padding: 1px;
+        height: 70px;
+    }
+    footer {
+        text-align: center;
+        padding: 3px;
+        background-image: radial-gradient(circle, rgb(230, 192, 192), rgba(117, 114, 114, 0), rgb(226, 186, 186));
+            
+    
+        height: 90px;
+        width: 90%;
+        padding-left: 50px;
+        margin-left: 35px;
+        border-radius: 20px;
+        opacity: 70%;
+      }
+      .inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        position: relative;
+        top: 20px;
+    }
+    .inline_elements_INICIO a ,   .inline_elements_SOBRE_NOS a , .inline_elements_NOVIDADES a{
+        font-size: 15px;
+        width: 90px;
+        display:block;
+    }
+    
+ 
+    
+
+}
+@media (min-width:500px) and (max-width: 600px){
+    .inline_elements_NOVIDADES a{
+        width: 100px;
         height: 20px;
         display:block;
         font-size: 12px;
@@ -1112,189 +1198,31 @@ footer {
         font-size: 12px;
     
     }
-    .inline_elements_NOVIDADES a:hover, .inline_elements_INICIO a:hover, 
-    .inline_elements_SOBRE_NOS a:hover{
-        background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(224, 82, 82));
-        border-radius: 20px;
-        transition:0.1s ease-in-out;
+    .inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS{
+        padding-left: 1px;
+        padding-right: 1px;
+        margin-left: 1px;
+        margin-right: 1px;
+        position: relative;
+        top: 20px;
     }
-    .INICIO,.NOVIDADES, .SOBRE_NOS{
-            font-size: 15px;
-            text-decoration: none;
-            color:aliceblue;
-        
-    }
-    
-    .containe_TO_button_ram_mob_infoTech{
-        padding: 1px !important;
-        margin: 1px !important;
-        width: 100% !important;
-    }
-    
-    .container_RAM_contents_display_btn, .container_important_contents_display_btn,
-    .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
-    .container_case_contents_display_btn {
-        padding-top: 5px;
+    .search {
+        width: 80%;
+        position: relative;
+        display: flex;
         margin-top: 5px;
-        overflow: hidden;
-        left: 10%;
-        position: relative;
-    }
-    
-    .container_MOB_contents_display_btn {
-        padding-top: 5px;
-        margin-top: 5px;
-        overflow: hidden;
-        left: 10%;
-        position: relative;
-    }
-    
-    #theme_computer a, #theme_prog a, #theme_software a, #theme_CodeForall a, #theme_Construct_setups a, #theme_Tips  a{
-        font-size:8px !important;
-       
-        width: 100px !important;
+        padding-top:5px;
         
-    }
-    
-    #inline_them_image_computer, #inline_them_image_software{
-        width: 50px !important;
-        height: 50px !important;
-        left: 15px !important;
-        padding: 1px !important;
-        top: 30px;
-        
-    }
-    
-    #inline_them_image_prog{
-        width: 50px !important;
-        height: 50px !important;
-        padding: 1px !important;
-        left: 15px !important;
-        top: 30px;
-        position: relative;
-    }
-    
-    #Resume{
-        font-size: 20px ;
-        color:rgb(255, 253, 253);
-        font-style: normal;
-        font-family: Arial, Helvetica, sans-serif;
        
     }
     
-    footer {
-       
-        padding: 1px ;
-        
-    
-        height: 90px;
-        width: 90% ;
-        padding-left: 5px ;
-        margin-left: 20px ;
-        border-radius: 20px ;
-        
-      }
-    
-    .container_content_Resume p{
-       font-size: 15px;
-       color: rgb(255, 255, 255);
-       text-align:justify;
-    }
-    .introduction_content_And_container_content_themes p{
-        text-align:justify;
-        color: rgb(250, 250, 250);
-    }
-    
-    #warning{
-        padding: 3px;
-        margin-left: 20px;
-        font-size: 10px;
-        padding: 1px;
-    
-    }
-  
-}
-
-@media (max-width: 380px){
-    .container_content_Resume p{
-        display: none;
-     }
-     
-      
-     .Container_inline_resume h1, .Container_inline_resume {
-        display: none;
-      
-    }
-    
-}
-
-@media (max-width: 350px){
-    .container_content_Resume p{
-        display: none;
-     }
-     
-      
-     .Container_inline_resume h1, .Container_inline_resume {
-        display: none;
-      
-    }
-    #theme_computer, #theme_software, #theme_prog, #theme_CodeForall, #theme_Construct_setups, #theme_Tips {
-        background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(160, 120, 120));
-        border-radius: 30px;
-        cursor: pointer;
-        width: 80px;
-    }
-    .intro_themes{
-        color: #fff;
-        font-size: 15px;
-        padding: 10px;
-        margin: 1px 1px 1px;
-        cursor: pointer;
-        border-radius: 30px;
-        transition-duration: 0.4s; 
-        
-    }
-    .introduction_content_And_container_content_themes h2{
-        width: 350px;
-        font-size: 15px;
-        cursor: pointer;
-        font-size: 15px;
-    }
-    .introduction_content_And_container_content_themes p{
-        text-align:justify;
-        color: rgb(250, 250, 250);
-        font-size: 13px;
-    }
-    
-}
-
-@media (min-width:601px) and (max-width: 1000px){
-    .container_RAM_contents_display_btn, .container_important_contents_display_btn,
-    .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
-    .container_case_contents_display_btn {
-        padding-top: 5px;
-        margin-top: 5px;
-        overflow: hidden;
-        left: 140px;
-        position: relative;
-    }
-    .container_MOB_contents_display_btn {
-        padding-top: 5px;
-        margin-top: 5px;
-        overflow: hidden;
-        left: 140px;
-        position: relative;
-    }
-
-}
-@media (min-width:500px) and (max-width: 600px){
     .container_RAM_contents_display_btn, .container_important_contents_display_btn,
     .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
     .container_case_contents_display_btn {
         padding-top: 20px;
         margin-top: 20px;
         overflow: hidden;
-        left: 40px;
+        left: 60px;
         position: relative;
        
     }
@@ -1302,7 +1230,7 @@ footer {
         padding-top: 20px;
         margin-top: 20px;
         overflow: hidden;
-        left: 40px;
+        left: 60px;
         position: relative;
     }
     
@@ -1310,7 +1238,7 @@ footer {
         background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(160, 120, 120));
         border-radius: 30px;
         cursor: pointer;
-        width: 130px;
+        width: 150px;
     }
     #theme_computer a, #theme_prog a, #theme_software a, #theme_CodeForall a, #theme_Construct_setups a, #theme_Tips  a{
         font-size: 17px;
@@ -1359,5 +1287,364 @@ footer {
         border-radius: 20px;
         opacity: 70%;
       }
+      .container_content_themes_title{
+        width: 100%;
+      }
     
 }
+
+
+
+
+
+
+@media (max-width: 500px){
+    .content_heavy{
+        padding-top: 50px;
+        margin: 0px !important;
+        width: 100%;
+        
+    }
+    .containe_TO_button_ram_mob_infoTech{
+        padding: 5px;
+        margin: 5px;
+        width: 95%;
+        border-radius: 20px;
+        background-image: none !important;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    .main_nav{
+            overflow:hidden;
+            top: 0;
+            left: 0;
+            position:relative;
+            width: 100%;
+            display: flex;
+            text-align: center;
+            height: 50px;
+            border-bottom: 0px;
+            opacity: 90%;
+           
+           
+    }
+    
+    
+    .search {
+        
+        display: none !important; 
+    
+       
+    }
+    
+    .top_Legend_logo{
+        width: 60px;
+        height: 60px;
+            bottom: 18px;
+            position: relative;
+    }
+    #my_head_img{
+        width: 60px;
+        height: 60px;
+        top: 10px;
+        left: 1px;
+        position: relative;    
+    }
+    ul{
+        list-style-type: none;
+    }  
+    .inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS{
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-left: 5px;
+            margin-right: 5px;
+            position: relative;
+            top: 20px;
+    }
+    .inline_elements_NOVIDADES a{
+        width: 120px;
+        height: 20px;
+        display:block;
+        font-size: 12px;
+       
+    }
+    .inline_elements_INICIO a{
+        width: 50px;
+        height: 20px;
+        display:block;
+        font-size: 12px;
+    }
+    
+    .inline_elements_SOBRE_NOS a{
+        width: 80px;
+        height: 20px;
+        display:block;
+        font-size: 12px;
+    
+    }
+  
+    
+    .containe_TO_button_ram_mob_infoTech{
+        padding: 1px;
+        margin: 1px;
+        width: 100%;
+    }
+    
+    .container_RAM_contents_display_btn, .container_important_contents_display_btn,
+    .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
+    .container_case_contents_display_btn {
+        padding-top: 5px;
+        margin-top: 5px;
+        overflow: hidden;
+        left: 15%;
+        position: relative;
+    }
+    
+    .container_MOB_contents_display_btn {
+        padding-top: 5px;
+        margin-top: 5px;
+        overflow: hidden;
+        left: 15%;
+        position: relative;
+    }
+    
+    #theme_computer a, #theme_prog a, #theme_software a, #theme_CodeForall a, #theme_Construct_setups a, #theme_Tips  a{
+        font-size:15px;
+       
+        width: 100px;
+        
+    }
+    
+    #inline_them_image_computer, #inline_them_image_software{
+        width: 80px;
+        height: 80px;
+        left: 8px;
+        padding: 1px;
+        top: 30px;
+        
+    }
+    
+    #inline_them_image_prog{
+        width: 80px;
+        height: 80px;
+        padding: 1px;
+        left: 8px;
+        top: 30px;
+        position: relative;
+    }
+    .container_content_themes_title {
+        width: 100%;
+    }
+    
+    #Resume{
+        font-size: 20px ;
+        color:rgb(255, 253, 253);
+        font-style: normal;
+        font-family: Arial, Helvetica, sans-serif;
+       
+    }
+    
+    footer {
+       
+        padding: 1px ;
+        
+    
+        height: 90px;
+        width: 90% ;
+        padding-left: 5px ;
+        margin-left: 20px ;
+        border-radius: 20px ;
+        
+      }
+    
+    .container_content_Resume p{
+       font-size: 15px;
+       color: rgb(255, 255, 255);
+       text-align:justify;
+    }
+    .introduction_content_And_container_content_themes p{
+        text-align:justify;
+        color: rgb(250, 250, 250);
+    }
+    
+    #warning{
+        padding: 3px;
+        margin-left: 20px;
+        font-size: 10px;
+        padding: 1px;
+    
+    }
+    
+  
+}
+@media (max-width: 380px){
+    .container_content_Resume p{
+        display: none;
+     }
+     
+      
+     .Container_inline_resume h1, .Container_inline_resume {
+        display: none;
+      
+    }
+
+#theme_computer a, #theme_prog a, #theme_software a, #theme_CodeForall a, #theme_Construct_setups a, #theme_Tips  a{
+ font-size: 12px;
+ width:70px;
+ border-radius: 20px;
+
+} 
+ 
+#inline_them_image_computer, #inline_them_image_software{
+    width: 60px;
+    height: 60px;
+    left: 10px;
+    padding: 1px;
+    top: 30px;
+    
+}
+
+#inline_them_image_prog{
+    width: 60px;
+    height: 60px;
+    padding: 1px;
+    left: 10px;
+    top: 30px;
+    position: relative;
+}
+#theme_computer, #theme_software, #theme_prog, #theme_CodeForall, #theme_Construct_setups, #theme_Tips {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(160, 120, 120));
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100px;
+}
+.container_content_themes_title{
+    width: 100%;
+}
+.container_RAM_contents_display_btn, .container_important_contents_display_btn,
+.container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
+.container_case_contents_display_btn {
+    padding-top: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+    left: 8%;
+    position: relative;
+}
+
+.container_MOB_contents_display_btn {
+    padding-top: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+    left:8%;
+    position: relative;
+}
+    
+}
+
+
+@media (max-width: 350px){
+    .container_content_Resume p{
+        display: none;
+     }
+     
+      
+     .Container_inline_resume h1, .Container_inline_resume {
+        display: none;
+      
+    }
+    #theme_computer, #theme_software, #theme_prog, #theme_CodeForall, #theme_Construct_setups, #theme_Tips {
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(160, 120, 120));
+        border-radius: 30px;
+        cursor: pointer;
+        width: 80px;
+    }
+    .intro_themes{
+        color: #fff;
+        font-size: 15px;
+        padding: 10px;
+        margin: 1px 1px 1px;
+        cursor: pointer;
+        border-radius: 30px;
+        transition-duration: 0.4s; 
+        
+    }
+    .introduction_content_And_container_content_themes h2{
+        width: 350px;
+        font-size: 15px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    .introduction_content_And_container_content_themes p{
+        text-align:justify;
+        color: rgb(250, 250, 250);
+        font-size: 13px;
+    }
+    .inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS{
+        padding-left: 3px;
+        padding-right: 3px;
+        margin-left: 1px;
+        margin-right: 1px;
+        position: relative;
+        top: 20px;
+    }
+    .inline_elements_NOVIDADES a{
+        width: 69px;
+        height: 20px;
+        display:block;
+        font-size: 11px;
+        padding: 1px;
+       
+    }
+    .inline_elements_INICIO a{
+        width: 45px;
+        height: 20px;
+        display:block;
+        font-size: 11px;
+        padding: 1px;
+    }
+    
+    .inline_elements_SOBRE_NOS a{
+        width: 66px;
+        height: 20px;
+        display:block;
+        font-size: 11px;
+        padding: 1px;
+    
+    }
+    .main_nav{
+        overflow:hidden;
+        top: 0;
+        left: 0;
+        position:relative;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        height: 50px;
+        border-bottom: 0px;
+        opacity: 90%;
+       
+       
+}
+    .container_RAM_contents_display_btn, .container_important_contents_display_btn,
+    .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
+    .container_case_contents_display_btn {
+        left: 5%;
+    }
+    
+    .container_MOB_contents_display_btn {
+        left: 5%;
+    }
+
+   .button{
+    width: 250px;
+   }
+   #theme_computer a, #theme_prog a, #theme_software a, #theme_CodeForall a, #theme_Construct_setups a, #theme_Tips  a{
+    font-size: 12px;
+    width:70px;
+    border-radius: 20px;
+   
+    } 
+}           
+
+
