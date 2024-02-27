@@ -734,6 +734,7 @@ p{
     border-radius: 30px;
     width: 97%;
     height: 200px;
+ 
 }
 #theme_computer, #theme_software, #theme_prog, #theme_CodeForall, #theme_Construct_setups, #theme_Tips {
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(160, 120, 120));
@@ -753,6 +754,7 @@ p{
     margin: 10px;
     position: relative;
 }
+
 #inline_them_image_computer, #inline_them_image_software{
     width: 100px;
     height: 100px;
@@ -761,6 +763,22 @@ p{
     margin: 10px;
     position: relative;
     
+}
+#inline_them_image_security{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    left: 30px;
+    margin: 10px;
+    position: relative;
+}
+#inline_them_image_cmd, #inline_them_image_setup{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    left: 55px;
+    margin: 10px;
+    position: relative;
 }
 
 #Themes{
@@ -1032,14 +1050,32 @@ footer {
     }
 }
 
-@media (min-width:1000px) and (max-width: 1300px){
+@media (min-width:1100px) and (max-width: 1300px){
     .container_RAM_contents_display_btn, .container_important_contents_display_btn,
     .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
     .container_case_contents_display_btn, .container_MOB_contents_display_btn {
         padding-top: 5px;
         margin-top: 5px;
         overflow: hidden;
-        left: 30px;
+        left: 10px;
+        position: relative;
+    }
+    .inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS {
+        padding-left:15px;
+    padding-right: 15x;
+    margin-left: 15px;
+    margin-right: 15px;
+    }
+
+}
+@media (min-width:1085px) and (max-width: 1100px){
+    .container_RAM_contents_display_btn, .container_important_contents_display_btn,
+    .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
+    .container_case_contents_display_btn, .container_MOB_contents_display_btn {
+        padding-top: 5px;
+        margin-top: 5px;
+        overflow: hidden;
+        left: 170px;
         position: relative;
     }
     .inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS {
@@ -1131,7 +1167,12 @@ margin-right: 22px;
     margin-left: 2px;
     margin-right: 2px;
     }
-
+    .Subcontainer_Theme_all{
+        margin: 0px;
+    }
+    .Subcontainer_Subcontent_themes_title{
+        width: 100%;
+    }
 }
 @media (min-width:740px) and (max-width: 779px){
     .container_RAM_contents_display_btn, .container_important_contents_display_btn,
@@ -1269,7 +1310,7 @@ margin-right: 22px;
         width: 120px;
         height: 120px;
         padding: 10px;
-        left: 20px;
+        left: 10px;
         margin: 10px;
         position: relative;
     }
@@ -1305,6 +1346,22 @@ margin-right: 22px;
         font-size: 15px;
         width: 100px;
         display:block;
+    }
+    #inline_them_image_security{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        left: 0px;
+        margin: 10px;
+        position: relative;
+    }
+    #inline_them_image_cmd, #inline_them_image_setup{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        left: 10px;
+        margin: 10px;
+        position: relative;
     }
     
  
@@ -1401,6 +1458,28 @@ margin-right: 22px;
         left: 20px;
         margin: 10px;
         position: relative;
+    }
+    #inline_them_image_security{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        left: 10px;
+        margin: 10px;
+        position: relative;
+    }
+    #inline_them_image_cmd, #inline_them_image_setup{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        left: 10px;
+        margin: 10px;
+        position: relative;
+    }
+    .Subcontainer_Theme_all{
+        margin: 0px;
+    }
+    .Subcontainer_Subcontent_themes_title{
+        width: 100%;
     }
     #warning{
         padding: 3px;
@@ -1566,6 +1645,14 @@ margin-right: 22px;
         padding: 1px;
         left: 8px;
         top: 30px;
+        position: relative;
+    }
+    #inline_them_image_cmd{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        left: -10px;
+        margin: 10px;
         position: relative;
     }
     .container_content_themes_title {
