@@ -1020,6 +1020,66 @@ footer {
     opacity: 70%;
 }
 
+@media (min-width:1400px){
+    .container_RAM_contents_display_btn, .container_important_contents_display_btn,
+    .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
+    .container_case_contents_display_btn, .container_MOB_contents_display_btn {
+        padding-top: 5px;
+        margin-top: 5px;
+        overflow: hidden;
+        left: 30px;
+        position: relative;
+    }
+}
+
+@media (min-width:1000px) and (max-width: 1300px){
+    .container_RAM_contents_display_btn, .container_important_contents_display_btn,
+    .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
+    .container_case_contents_display_btn, .container_MOB_contents_display_btn {
+        padding-top: 5px;
+        margin-top: 5px;
+        overflow: hidden;
+        left: 30px;
+        position: relative;
+    }
+    .inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS {
+        padding-left:15px;
+    padding-right: 15x;
+    margin-left: 15px;
+    margin-right: 15px;
+    }
+
+}
+
+@media (min-width:840px) and (max-width: 930px){
+    .container_RAM_contents_display_btn, .container_important_contents_display_btn,
+    .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
+    .container_case_contents_display_btn, .container_MOB_contents_display_btn {
+        padding-top: 5px;
+        margin-top: 5px;
+        overflow: hidden;
+        left: 30px;
+        position: relative;
+    }
+    .inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS {
+        padding-left:12px;
+    padding-right: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    }
+
+}
+@media (min-width:930px) and (max-width: 985px){
+.inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS {
+    padding-left:22px;
+padding-right: 22px;
+margin-left: 22px;
+margin-right: 22px;
+}
+
+}
+
+
 @media (min-width:801px) and (max-width: 840px){
 
     .containe_TO_button_ram_mob_infoTech{
@@ -1045,6 +1105,80 @@ footer {
 }
 
 
+
+@media (min-width:780px) and (max-width: 802px){
+    .container_RAM_contents_display_btn, .container_important_contents_display_btn,
+    .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
+    .container_case_contents_display_btn, .container_MOB_contents_display_btn {
+        padding-top: 5px;
+        margin-top: 5px;
+        overflow: hidden;
+        left: 30px;
+        position: relative;
+    }
+    .search {
+        width: 80%;
+        position: relative;
+        display: flex;
+        margin-top: 5px;
+        padding-top:5px;
+        
+       
+    }
+    .inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS {
+        padding-left:2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    }
+
+}
+@media (min-width:740px) and (max-width: 779px){
+    .container_RAM_contents_display_btn, .container_important_contents_display_btn,
+    .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
+    .container_case_contents_display_btn, .container_MOB_contents_display_btn {
+        padding-top: 5px;
+        margin-top: 5px;
+        overflow: hidden;
+        left: 30px;
+        position: relative;
+    }
+    .search {
+        width: 80%;
+        position: relative;
+        display: flex;
+        margin-top: 5px;
+        padding-top:5px;
+        
+       
+    }
+    .inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS {
+        padding-left:2px;
+    padding-right: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    }
+    .containe_TO_button_ram_mob_infoTech{
+        width: 100%;
+    }
+    #theme_computer, #theme_software, #theme_prog, #theme_CodeForall, 
+    #theme_Construct_setups, #theme_Tips{
+        width: 180px;
+        height: 180px;
+    }
+    #theme_computer a, #theme_prog a, #theme_software a,
+     #theme_CodeForall a, #theme_Construct_setups a, #theme_Tips a{
+        font-size: 17px;
+        width: 220px;
+     }
+     #inline_them_image_prog {
+        left: 45px;
+    }
+     .container_content_themes_title{
+        width: 100%;
+     }
+
+}
 
 
 
@@ -1081,6 +1215,7 @@ footer {
     #inline_them_image_computer, #inline_them_image_software {
         left: 45px;
     }
+    
      
         
 }
@@ -1159,16 +1294,16 @@ footer {
         opacity: 70%;
       }
       .inline_elements_NOVIDADES, .inline_elements_INICIO, .inline_elements_SOBRE_NOS{
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
         position: relative;
         top: 20px;
     }
     .inline_elements_INICIO a ,   .inline_elements_SOBRE_NOS a , .inline_elements_NOVIDADES a{
         font-size: 15px;
-        width: 90px;
+        width: 100px;
         display:block;
     }
     
