@@ -1069,7 +1069,7 @@ footer {
     }
 
 }
-@media (min-width:1085px) and (max-width: 1100px){
+@media (min-width:1085px) and (max-width: 1110px){
     .container_RAM_contents_display_btn, .container_important_contents_display_btn,
     .container_PSU_contents_display_btn, .container_hddssd_contents_display_btn,
     .container_case_contents_display_btn, .container_MOB_contents_display_btn {
