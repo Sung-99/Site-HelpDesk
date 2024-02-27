@@ -740,6 +740,7 @@ p{
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(160, 120, 120));
     border-radius: 30px;
     cursor: pointer;
+    width: 200px;
 }
     #theme_computer:hover, #theme_software:hover, #theme_prog:hover, #theme_CodeForall:hover,
     #theme_Construct_setups:hover, #theme_Tips:hover {
@@ -1306,14 +1307,7 @@ margin-right: 22px;
         position: relative;
         
     }
-    #inline_them_image_prog{
-        width: 120px;
-        height: 120px;
-        padding: 10px;
-        left: 10px;
-        margin: 10px;
-        position: relative;
-    }
+   
     #warning{
         padding: 3px;
         margin-left: 1px;
@@ -1352,6 +1346,14 @@ margin-right: 22px;
         height: 100px;
         padding: 10px;
         left: 0px;
+        margin: 10px;
+        position: relative;
+    }
+    #inline_them_image_prog{
+        width: 120px;
+        height: 120px;
+        padding: 10px;
+        left: 10px;
         margin: 10px;
         position: relative;
     }
@@ -1432,6 +1434,7 @@ margin-right: 22px;
         cursor: pointer;
         width: 150px;
     }
+    
     #theme_computer a, #theme_prog a, #theme_software a, #theme_CodeForall a, #theme_Construct_setups a, #theme_Tips  a{
         font-size: 17px;
         cursor: pointer;
@@ -1629,7 +1632,12 @@ margin-right: 22px;
         width: 100px;
         
     }
-    
+    #theme_computer, #theme_software, #theme_prog, #theme_CodeForall, #theme_Construct_setups, #theme_Tips {
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(160, 120, 120));
+        border-radius: 30px;
+        cursor: pointer;
+        width: 100px;
+    }
     #inline_them_image_computer, #inline_them_image_software{
         width: 80px;
         height: 80px;
@@ -1696,6 +1704,30 @@ margin-right: 22px;
         font-size: 10px;
         padding: 1px;
     
+    }
+    #inline_them_image_security{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        left: -10px;
+        margin: 10px;
+        position: relative;
+    }
+    #inline_them_image_prog{
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+        left: 1px;
+        margin: 10px;
+        position: relative;
+    }
+    #inline_them_image_cmd, #inline_them_image_setup{
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+        left: 1px;
+        margin: 10px;
+        position: relative;
     }
     
   
