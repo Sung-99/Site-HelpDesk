@@ -85,9 +85,9 @@ body {
     display: flex;
     text-align: center;
     height: 50px;
-    background-image: radial-gradient(circle, rgb(153, 115, 115), rgba(117, 114, 114, 0), rgb(156, 116, 116));
-        border-bottom: 2px solid cornsilk;
-  
+    background-image: radial-gradient(circle, rgb(175, 115, 115), rgba(117, 114, 114, 0), rgb(175, 109, 109));
+    border-bottom: 2px solid cornsilk;
+    z-index: 1;
     opacity: 90%;
    
    
@@ -155,15 +155,7 @@ font-size: '0';
     position: relative;
      
 }*/
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-   
 
-    
-   
-}
 
 .content_heavy{
  
@@ -1961,8 +1953,12 @@ margin-right: 22px;
 }           
 #theme_computer a, #theme_prog a, #theme_software a, #theme_CodeForall a, #theme_Construct_setups a, #theme_Tips  a{
        
-    text-decoration:underline 1px;
-   
+    text-decoration:underline 1px; 
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
    
 }
 
