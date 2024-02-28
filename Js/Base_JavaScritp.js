@@ -110,4 +110,16 @@ function myFunction() {
 document.querySelector('.date--year').textContent = "@" + date__yearEndPage.getFullYear();
 
 
+const form1 = document.querySelector("#formCritic");
+const textInput = document.getElementById("Name");
+/* Custom message for submt */
+form1.addEventListener("submit", (event) => {
+  // if the email field is valid, we let the form submit
+
+    // If it isn't, we display an appropriate error message
+
+    // Then we prevent the form from being sent by canceling the event
+    event.preventDefault();
+  
+});
 }
