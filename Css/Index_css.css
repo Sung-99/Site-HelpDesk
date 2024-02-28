@@ -1771,6 +1771,7 @@ margin-right: 22px;
     border-radius: 30px;
     cursor: pointer;
     width: 100px;
+    height: 96px;
 }
 .container_content_themes_title{
     width: 100%;
@@ -1793,7 +1794,25 @@ margin-right: 22px;
     left:8%;
     position: relative;
 }
-    
+.Subcontainer_Subcontent_themes_title, .Subcontainer_Theme_all{
+    height: 120px;
+} 
+#inline_them_image_cmd, #inline_them_image_setup {
+    width: 60px;
+    height: 60px;
+    padding: 3px;
+    left: 10px;
+    margin: 3px;
+    position: relative;
+}
+#inline_them_image_security {
+    width: 90px;
+    height: 90px;
+    padding: 1px;
+    left: -3px;
+    margin: 1px;
+    position: relative;
+}   
 }
 
 
