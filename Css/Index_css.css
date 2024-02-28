@@ -1738,14 +1738,19 @@ margin-right: 22px;
       
     }
 
-#theme_computer a, #theme_prog a, #theme_software a, #theme_CodeForall a, #theme_Construct_setups a, #theme_Tips  a{
+#theme_computer a, #theme_software a, #theme_CodeForall a, #theme_Construct_setups a, #theme_Tips  a{
  font-size: 12px;
  width:80px;
  border-radius: 20px;
  text-decoration:underline 1px;
-
+ left: 10px;
+ position: relative;
 
 } 
+#theme_prog a{  
+    left: -6px;
+    position: relative;
+ }
  
 #inline_them_image_computer, #inline_them_image_software{
     width: 60px;
@@ -1801,7 +1806,7 @@ margin-right: 22px;
     width: 60px;
     height: 60px;
     padding: 3px;
-    left: 10px;
+    left: 20px;
     margin: 3px;
     position: relative;
 }
@@ -1809,7 +1814,7 @@ margin-right: 22px;
     width: 90px;
     height: 90px;
     padding: 1px;
-    left: -3px;
+    left: 2px;
     margin: 1px;
     position: relative;
 }   
