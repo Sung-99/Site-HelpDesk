@@ -27,6 +27,12 @@ var span_tec_info_PSU = document.getElementsByClassName("close_Info_tec")[3];
 var span_tec_info_HDDSSD = document.getElementsByClassName("close_Info_tec")[4];
 var span_tec_info_case = document.getElementsByClassName("close_Info_tec")[5];
 
+
+/*var date at end of the page*/
+let date__yearEndPage = new Date();
+
+
+
 btn_info_tec.onclick = function() {
   element_info_Tecnologia.style.display = "block";
   }
@@ -97,4 +103,11 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+
+/*date year at end page */
+
+document.querySelector('.date--year').textContent = "@" + date__yearEndPage.getFullYear();
+
+
 }
