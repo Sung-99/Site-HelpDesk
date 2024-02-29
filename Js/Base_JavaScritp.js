@@ -113,4 +113,7 @@ document.querySelector('.date--year').textContent = "@" + date__yearEndPage.getF
 const form1 = document.querySelector("#formCritic");
 const textInput = document.getElementById("Name");
 
+
+
+
 }
