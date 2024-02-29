@@ -9,8 +9,13 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //app.use(express.bodyParser());
 
 app.post('/myaction', function(req, res) {
-  res.send('You sent the name "' + req.body.Questio + '".');
-});
+
+  var lName = req.body.Nome;
+  var messg = req.body.Questio;
+
+
+  res.send('You sent the name "' + lName + ' and the message ' + messg + '".');
+}); 
 
 app.listen(3000, function() {
   console.log('Server running at http://127.0.0.1:3000/');
