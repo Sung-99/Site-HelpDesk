@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //app.use(express.bodyParser());
 
 app.post('/myaction', function(req, res) {
-  res.send('You sent the name "' + req.body.name + '".');
+  res.send('You sent the name "' + req.body.Questio + '".');
 });
 
 app.listen(3000, function() {
