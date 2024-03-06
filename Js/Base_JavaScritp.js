@@ -106,8 +106,19 @@ function myFunction() {
 
 
 /*date year at end page */
-
 document.querySelector('.date--year').textContent = "@" + date__yearEndPage.getFullYear();
+
+
+/* TIME */
+
+let day = ['Segunda','Terça','Quarta','Quinta','Sexta','Sabado','Domingo'];
+
+setInterval(function (){
+ let date = new Date();
+ let x = date.getDay()
+ document.getElementById('time').textContent = day[x-1] + ' ' + date.getHours() +':'+('0'+ date.getMinutes()).slice(-2) +':'+ ('0' + date.getSeconds()).slice(-2);
+
+}, 1000);
 
 
 const form1 = document.querySelector("#formCritic");
