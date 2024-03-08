@@ -1,23 +1,8 @@
-var express = require('express');
-var bodyParser = require('body-parser');
-var app     = express();
+'use strict';
 
-const path = require('path');
+const fs = require('fs');
 
-app.use(bodyParser.json());
+let rawdata = fs.readFileSync('D:/vitor/AREA PROGRAMAÇÃO/JavaScript Programando/Site MyProject/JSON/JSON1.json');
+let student = JSON.parse(rawdata);
 
-//Note that in version 4 of express, express.bodyParser() was
-//deprecated in favor of a separate 'body-parser' module.
-app.use(bodyParser.urlencoded({ extended: true })); 
-
-//app.use(express.bodyParser());
-
-app.get('/', function(req, res) {
-
-  const htmlFilePath = path.join(__dirname, '..', 'index.html');
-   res.sendFile(htmlFilePath) 
-}); 
-
-app.listen(3000, function() {
-  console.log('Server running at http://127.0.0.1:3000/');
-})
+console.log(student);
