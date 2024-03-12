@@ -121,10 +121,4 @@ setInterval(function (){
 }, 1000);
 
 
-const form1 = document.querySelector("#formCritic");
-const textInput = document.getElementById("Name");
-
-
-
-
 }
