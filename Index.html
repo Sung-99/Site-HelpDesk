@@ -460,9 +460,9 @@
           
           <iframe name="hiddenFrame" class="hide"></iframe>
           
-        <form  id="formCritic"  action="http://localhost:3000/takAction"  method="post"  target="hiddenFrame">
-            <input type="text" id="Name" name="Nome" placeholder="Seu nome.." >
-            <textarea class="text_area_submit" id="TextArea" name="TextArea" placeholder="Nos informe qualquer duvida ou problema.." ></textarea>
+        <form name="formCritic"  id="formCritic"  action="https://docs.google.com/forms/d/e/1FAIpQLSd6ya0ZXo5ljYAiI6fdw1NITvWkWBu5KCDgJB3_wlKd9nxFww/formResponse?"  method="post"  target="hiddenFrame">
+            <input type="text" id="entry.535876687" name="entry.535876687" placeholder="Seu nome.." >
+            <textarea class="text_area_submit" id="entry.189561253" name="entry.189561253" placeholder="Nos informe qualquer duvida ou problema.." ></textarea>
 
             <input id="submit_text_are" type="submit" value="Submit">
           
@@ -479,4 +479,13 @@
         <p id="time"></p>
       </footer>
     </body>
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript">var submitted=false;</script>
+    <script type="text/javascript">
+        $('#formCritic').on('submit', function(e) {
+            $('#formCritic *').fadeOut(2000);
+            
+            $('#formCritic').prepend('Your submission has been processed...');
+        });
+</script>
     </html>

@@ -12,7 +12,7 @@ const app = express();
 // Middleware to parse JSON and urlencoded data
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
+//https://docs.google.com/forms/d/e/1FAIpQLSd6ya0ZXo5ljYAiI6fdw1NITvWkWBu5KCDgJB3_wlKd9nxFww/viewform?usp=pp_url&entry.535876687=aaaaaaaaaaaaaaa&entry.189561253=aaaaaaaaaaaaaaaaaa
 app.post('/takAction', (req, res) => {
     // Get the message from the request body
     const { Nome, TextArea } = req.body;
