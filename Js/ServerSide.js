@@ -19,7 +19,15 @@ app.post('/takAction', (req, res) => {
     console.log( Nome, TextArea )
     // Write the message to a JSON file
     const data = JSON.stringify({  Nome, TextArea }) + '\n';
-    
+    fs.appendFile(path.join(__dirname, '..', 'JSON', 'JSON1.json'), data, (err) => {
+        if (err) {
+            console.error('Error writing message to file:', err);
+            res.status(500).send('Internal Server Error');
+        } else {
+            console.log('Message written to file');
+            res.status(200).send('Message written to file');
+        }
+    });
 });
 
     

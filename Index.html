@@ -17,7 +17,7 @@
  
 </head>
 <script>
-  document.getElementById('formCritic').addEventListener('submit', function let(event){
+  document.getElementById('formCritic').addEventListener('submit', function (event){
     event.preventDefault(); // Prevent the default form submission behavior
         
     
@@ -454,7 +454,13 @@
       </div>
       <div class="Contact_info">
         <h1 id="Resume">Nos aconselhe</h1>
-        <form onsubmit="let(); return false" id="formCritic"  action="http://localhost:3000/takAction"  method="post">
+        <style>
+            .hide { position:absolute; top:-1px; left:-1px; width:1px; height:1px; }
+          </style>
+          
+          <iframe name="hiddenFrame" class="hide"></iframe>
+          
+        <form  id="formCritic"  action="http://localhost:3000/takAction"  method="post"  target="hiddenFrame">
             <input type="text" id="Name" name="Nome" placeholder="Seu nome.." >
             <textarea class="text_area_submit" id="TextArea" name="TextArea" placeholder="Nos informe qualquer duvida ou problema.." ></textarea>
 
