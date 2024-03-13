@@ -9,27 +9,14 @@
   <title>shadow</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="Css/Index_css.css">
-  <script type="text/javascript" src="JSON/ServerSide.js" defer ></script>
+ <!-- <script type="text/javascript" src="JSON/ServerSide.js" defer ></script>-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="jQueryJs/MyJquery.js"></script>
   <script src="Js/Base_JavaScritp.js"></script>
  
 </head>
-<script>
-  document.getElementById('formCritic').addEventListener('submit', function (event){
-    event.preventDefault(); // Prevent the default form submission behavior
-        
-    
-    const formData = new FormData(this);
-    fetch('http://localhost:3000/takAction', {
-        method: 'POST',
-        body: formData
-    })
 
-
-  })
-</script>
 <body>
  <div class="Main_Background"></div>
  <main>
@@ -479,13 +466,13 @@
         <p id="time"></p>
       </footer>
     </body>
-    <script src="assets/js/jquery.min.js"></script>
+   
     <script type="text/javascript">var submitted=false;</script>
     <script type="text/javascript">
         $('#formCritic').on('submit', function(e) {
-            $('#formCritic *').fadeOut(2000);
-            
-            $('#formCritic').prepend('Your submission has been processed...');
+            $('#formCritic *').fadeOut(1);
+            document.querySelector('#formCritic').style.color = 'white';
+            $('#formCritic').prepend('Obrigado pelo feedback...');
         });
-</script>
-    </html>
+    </script>
+</html>
