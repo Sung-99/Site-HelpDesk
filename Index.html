@@ -9,13 +9,27 @@
   <title>shadow</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="Css/Index_css.css">
+  <script type="text/javascript" src="JSON/ServerSide.js" defer ></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="jQueryJs/MyJquery.js"></script>
   <script src="Js/Base_JavaScritp.js"></script>
-  <script src="Js/ServerSide.js"></script>
+ 
 </head>
+<script>
+  document.getElementById('formCritic').addEventListener('submit', function let(event){
+    event.preventDefault(); // Prevent the default form submission behavior
+        
+    
+    const formData = new FormData(this);
+    fetch('http://localhost:3000/takAction', {
+        method: 'POST',
+        body: formData
+    })
 
+
+  })
+</script>
 <body>
  <div class="Main_Background"></div>
  <main>
@@ -440,9 +454,9 @@
       </div>
       <div class="Contact_info">
         <h1 id="Resume">Nos aconselhe</h1>
-        <form id="formCritic"  action="http://localhost:3000"  method="get">
+        <form onsubmit="let(); return false" id="formCritic"  action="http://localhost:3000/takAction"  method="post">
             <input type="text" id="Name" name="Nome" placeholder="Seu nome.." >
-            <textarea class="text_area_submit" id="Questio" name="Questio" placeholder="Nos informe qualquer duvida ou problema.." ></textarea>
+            <textarea class="text_area_submit" id="TextArea" name="TextArea" placeholder="Nos informe qualquer duvida ou problema.." ></textarea>
 
             <input id="submit_text_are" type="submit" value="Submit">
           

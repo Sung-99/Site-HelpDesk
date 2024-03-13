@@ -1,5 +1,5 @@
 
-window.onload = function (){
+
 
 
 //MY server for submit // 
@@ -19,29 +19,9 @@ app.post('/takAction', (req, res) => {
     console.log( Nome, TextArea )
     // Write the message to a JSON file
     const data = JSON.stringify({  Nome, TextArea }) + '\n';
-    fs.appendFile(path.join(__dirname, 'JSON1.json'), data, (err) => {
-        if (err) {
-            console.error('Error writing message to file:', err);
-            res.status(500).send('Internal Server Error');
-        } else {
-            console.log('Message written to file');
-            res.status(200).send('Message written to file');
-        }
-    });
+    
 });
 
-document.getElementById('formCritic').addEventListener('submit', function(event){
-    event.preventDefault(); // Prevent the default form submission behavior
-        
-    
-    const formData = new FormData(this);
-    fetch('http://localhost:3000/takAction', {
-        method: 'POST',
-        body: formData
-    })
-
-
-})
     
 
         
@@ -54,4 +34,3 @@ app.listen(port, () => {
     console.log(`Server running at http://127.0.0.1:${port}/`);
 });
 
-}
