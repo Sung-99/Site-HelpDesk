@@ -14,13 +14,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="jQueryJs/MyJquery.js"></script>
   <script src="Js/Base_JavaScritp.js"></script>
- 
-</head>
+  </head>
 
 <body>
  <div class="Main_Background"></div>
  <main>
      <header id="nav_bar" class="main_nav">
+         
          <div class="top_Legend_logo">
              <img id="my_head_img" src="Imagens/IndexSite1/Monarchpc.png" alt="Hacking monarch">
          </div>
@@ -48,7 +48,13 @@
                  <i class="fa fa-search"></i>
              </button>
          </div>
-     </header>
+         <div class="Translate-Icon" >
+            <span class="translate-this" style="cursor: pointer;">Linguagem</span>
+            <img  id="global-iccon-" src="Imagens/IndexSite1/global-iccon-.png" alt="Translate" />
+            <span class="close_" style="display: none;">&times;</span>
+            <div class="google_translate" id="google_translate_element" style="display: none; "></div>
+        </div>
+        </header>
      <!--WHEN THE SITE HAS SOME CONTENT PUT THIS FEAT WILL FIT BETTER
     <nav>
      <div class="search_bar">
@@ -60,6 +66,7 @@
     </nav>-->
      <!--Container BTN to all Desktop infos-->
      <div class="content_heavy">
+        
          <div class="containe_TO_button_ram_mob_infoTech">
              <div class="container_important_contents_display_btn">
                  <button id="my_btn_title_info_table" class="button title_info_table_btn">Info tecnológia </button>
@@ -464,9 +471,17 @@
             como forma de primeiro passo para um grande objetivo...
         </p>
         <p id="time"></p>
+       
       </footer>
     </body>
-   
+    <script>
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
     <script type="text/javascript">var submitted=false;</script>
     <script type="text/javascript">
         $('#formCritic').on('submit', function(e) {
@@ -475,4 +490,6 @@
             $('#formCritic').prepend('Obrigado pelo feedback...');
         });
     </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+   
 </html>

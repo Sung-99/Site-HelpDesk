@@ -120,5 +120,30 @@ setInterval(function (){
 
 }, 1000);
 
+/* Translate */
 
+    $('.translate-this').click(function() {
+        $(this).hide(); // Hide the icon when clicked
+        $('#google_translate_element').show(); // Show the dropdown
+        $('#global-iccon-').hide();
+        $('.close_').show(); 
+    });
+  
+    $(document).click(function(event) {
+        if (!$(event.target).closest('.translate-this, #google_translate_element').length) {
+            $('#google_translate_element').hide(); // Hide the dropdown
+            $('.translate-this').show(); // Show the icon again
+             $('.close_').hide();
+             
+        }
+    });
+   $(document).click(function(event) {
+    if (!$(event.target).closest('.translate-this, #google_translate_element').length) {
+           
+        $(this).hide(); // Hide the icon when clicked
+        $('#global-iccon-').show();
+    }
+    });
+
+    
 }
