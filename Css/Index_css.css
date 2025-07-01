@@ -1002,6 +1002,24 @@ p{
     cursor: pointer;
     font-size: 20px;
   }
+
+ .dropdownfafa {
+            border: 1px solid #ccc;
+            display: none; /* Hidden by default */
+           
+            background: white;
+            z-index: 1;
+            max-height: 200px;
+            overflow-y: auto;
+            width: 100%;
+        }
+        .dropdown div {
+            padding: 8px;
+            cursor: pointer;
+        }
+        .dropdown div:hover {
+            background: #f0f0f0;
+        }
 /*.Extra_themes{
    display: flex;
     justify-content: center;

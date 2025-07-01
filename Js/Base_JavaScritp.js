@@ -145,5 +145,52 @@ setInterval(function (){
     }
     });
 
-    
+
+
+    /*Search handling */
+const tutorials = [
+    "C Programming Language Tutorial",
+    "Java Tutorial",
+    "C Language Introduction",
+    "Getting started with C",
+    "C Basic Syntax",
+    "Python Tutorial",
+    "JavaScript Basics",
+    "HTML and CSS Guide"
+];
+
+const searchInput = document.getElementById('searchInput');
+const suggestions = document.getElementById('suggestions');
+
+searchInput.addEventListener('input', function() {
+    const query = this.value.toLowerCase();
+    suggestions.innerHTML = ''; // Clear previous suggestions
+    if (query) {
+        const filteredTutorials = tutorials.filter(tutorial => tutorial.toLowerCase().includes(query));
+        if (filteredTutorials.length) {
+            suggestions.style.display = 'block'; // Show dropdown
+            filteredTutorials.forEach(tutorial => {
+                const div = document.createElement('div');
+                div.textContent = tutorial;
+                div.onclick = function() {
+                    searchInput.value = tutorial; // Set input to clicked suggestion
+                    suggestions.style.display = 'none'; // Hide dropdown
+                };
+                suggestions.appendChild(div);
+            });
+        } else {
+            suggestions.style.display = 'none'; // Hide dropdown if no matches
+        }
+    } else {
+        suggestions.style.display = 'none'; // Hide dropdown if input is empty
+    }
+});
+
+// Hide dropdown when clicking outside
+document.addEventListener('click', function(event) {
+    if (!searchInput.contains(event.target) && !suggestions.contains(event.target)) {
+        suggestions.style.display = 'none';
+    }
+});
+
 }
